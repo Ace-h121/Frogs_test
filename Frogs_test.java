@@ -10,6 +10,7 @@ import java.util.function.Function;
  * 1) If a number is divible by 3 you print fizz
  * 2) If a number id divisible by 5 you print buzz
  * 3) Finally, if it is not divisble by either, you will print the number 
+ * 4) ensure the value goes up to the passed in length varible
  */
 
 class Frogs_test{
@@ -30,7 +31,7 @@ class Frogs_test{
             System.out.print(i);
         }
         System.out.println(map);
-        map = "";
+        
     }
  }
 }
