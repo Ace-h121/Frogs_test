@@ -20,16 +20,14 @@ class Frogs_test{
 
  public static void fizzBuzz(int length){
     String map = "";
-    for (int i = 0; i <length; i++){
+    for (int i = 0; i <=length; i++){
         if (i % 3 == 0){
             map += "fizz";
         }
         if (i % 5 == 0){
             map += "buzz";
         }
-        if (map == ""){
-            System.out.print(i);
-        }
+
         System.out.println(map);
         map = "";
     }
