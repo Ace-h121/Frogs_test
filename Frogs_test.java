@@ -27,7 +27,9 @@ class Frogs_test{
         if (i % 5 == 0){
             map += "buzz";
         }
-
+        if (map == ""){
+            System.out.print(map);
+        }
         System.out.println(map);
         map = "";
     }
